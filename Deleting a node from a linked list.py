@@ -23,10 +23,6 @@ class LinkedList:
             
         while (temp is not None):
             if temp.data == key:
-                break 
-            prev = temp 
-            temp = temp.next 
-            if temp.data == key:
                 break
             prev = temp
             temp = temp.next 
